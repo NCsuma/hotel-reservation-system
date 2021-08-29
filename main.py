@@ -1,3 +1,11 @@
+"""
+    File name: main.py
+    Author: Suma N C
+    Date created: 29/08/2021
+    Date last modified: 29/08/2021
+    Python Version: 3.1.6
+"""
+
 from flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.ext.automap import automap_base
